@@ -11,7 +11,9 @@ This capstone project has a lifecycle analytics process with two phases in two s
  - Data Input: df_cleaned (cleaned from Phase 1)
  - Model Output: Predictive Analytics and Fraud Detection Insights
    
-![image.png](attachment:48b7fbe2-af0b-4ed1-8318-4c24bba0d6c6.png)
+
+<img width="1446" height="1070" alt="image" src="https://github.com/user-attachments/assets/58946f64-e946-46f3-bcad-2e0a3a7132f4" />
+
 
 ***
 <font size="+2" color='#27408B'><b> CONTENT </b> </font>
