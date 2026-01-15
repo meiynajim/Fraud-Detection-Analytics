@@ -170,11 +170,12 @@ https://github.com/meiynajim/Fraud-Detection-Analytics/blob/main/Fraud%20Detecti
  - **Hybrid Approach**: Combine DNN for detection and XGBoost for ranking severity.
  - **Explainability**: Implement SHAP or LIME for transparency in fraud decisions.
    
-### A Few Recommended Future Work
+### Next Steps and Recommendation
 1. Data Expansion: incorporating more relevant data sources
 2. Investigation: outliers and potential sampling biases
 3. Multicollinearity Review: Use techniques like PCA or VIF to manage highly correlated features
-4. Feature Engineering: Create meaningful features, composite features, and/or interaction terms.
+4. Feature Engineering and Selection: Create and select meaningful features, composite features, and/or interaction terms.
 	e.g.: Consider combining variables into interaction terms and review if the joint effect seems significant or not.
+5. Further Model Review and Improvement: overfitting, etc. 
 
 ***
