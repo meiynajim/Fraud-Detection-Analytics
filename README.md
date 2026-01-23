@@ -131,30 +131,30 @@ https://github.com/meiynajim/Fraud-Detection-Analytics/blob/main/Fraud%20Detecti
 
 ### Executive Summary for Predictive Analytics
 
- - **Tuned Deep Neural Network (DNN) achieved the highest accuracy (93.39%)** and recall, which is critical for fraud detection because recall measures how many fraudulent cases we catch.
- - **XGBoost (91.89%)** and **Gradient Boosting (91.21%)** also performed strongly, offering a good balance of accuracy and ROC-AUC.
- - **Logistic Regression (90.01%) is competitive and highly interpretable**, which is important for compliance and audit trails.
- - **Decision Tree and Random Forest have lower accuracy (~77%) but very high precision (>92%)**, meaning they **minimize false positives—valuable when false alerts are costly**.
+ - **Tuned Deep Neural Network (DNN) achieved the highest accuracy (92.90%)** and recall, which is critical for fraud detection because recall measures how many fraudulent cases we catch.
+ - **XGBoost (92.22%)** and **Gradient Boosting (91.12%)** also performed strongly, offering a good balance of accuracy and ROC-AUC.
+ - **Logistic Regression (90.21%) is competitive and highly interpretable**, which is important for compliance and audit trails.
+ - **Decision Tree and Random Forest have lower accuracy (~76-77%) but very high precision (>92%)**, meaning they **minimize false positives—valuable when false alerts are costly**.
 
 ### Key Fraud Detection Insights
 
 **1. Recall is King in Fraud Detection**
 
  - Missing a fraudulent transaction (false negative) is far more costly than flagging a legitimate one.
- - DNN’s recall (93.39%) makes it the best candidate for fraud detection because it catches the most fraud cases.
+ - DNN’s recall (92.90%) makes it the best candidate for fraud detection because it catches the most fraud cases.
 
 
 **2. Precision Trade-off**
 
  - High precision reduces false positives (legitimate transactions flagged as fraud).
  - Tree-based models have precision >92%, which is good for minimizing customer friction.
- - DNN has slightly lower precision (89%), so expect more false alerts—but this is acceptable in fraud prevention where catching fraud is priority.
+ - DNN has slightly lower precision (89.58%), so expect more false alerts—but this is acceptable in fraud prevention where catching fraud is priority.
 
 
 **3. ROC-AUC Analysis**
 
- - XGBoost (0.824) and Gradient Boosting & Random Forest (0.812) lead in ROC-AUC, meaning they rank transactions well by fraud likelihood.
- - DNN’s ROC-AUC (0.803) is slightly lower, so probability calibration may need improvement for threshold tuning.
+ - XGBoost (0.812) and Gradient Boosting & Random Forest (0.814) lead in ROC-AUC, meaning they rank transactions well by fraud likelihood.
+ - DNN’s ROC-AUC (0.793) is slightly lower, so probability calibration may need improvement for threshold tuning.
 
 ### Business Impact
 
@@ -169,13 +169,4 @@ https://github.com/meiynajim/Fraud-Detection-Analytics/blob/main/Fraud%20Detecti
  - **Secondary Model**: Use XGBoost for risk scoring and threshold-based alerts.
  - **Hybrid Approach**: Combine DNN for detection and XGBoost for ranking severity.
  - **Explainability**: Implement SHAP or LIME for transparency in fraud decisions.
-   
-### Next Steps and Recommendation
-1. Data Expansion: incorporating more relevant data sources
-2. Investigation: outliers and potential sampling biases
-3. Multicollinearity Review: Use techniques like PCA or VIF to manage highly correlated features
-4. Feature Engineering and Selection: Create and select meaningful features, composite features, and/or interaction terms.
-	e.g.: Consider combining variables into interaction terms and review if the joint effect seems significant or not.
-5. Further Model Review and Improvement: overfitting, etc. 
-
-***
+ 
