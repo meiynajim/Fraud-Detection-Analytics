@@ -3,7 +3,7 @@
 
 This capstone project has a lifecycle analytics process with two phases in two separated notebooks:
 
-<font size="+1.8" color='#27408B'><b> ❏  Phase 1: Exploratory Data Analysis (first notebook:https://github.com/meiynajim/Fraud-Detection-Analytics/blob/main/Fraud%20Detection%20Analytics%20Phase%201%20Exploratory%20Data%20Analysis.html) </b> </font>
+<font size="+1.8" color='#27408B'><b> ❏  Phase 1: Exploratory Data Analysis (first notebook:https://github.com/meiynajim/Fraud-Detection-Analytics/blob/main/Fraud%20Detection%20Analytics%20Phase%201%20Exploratory%20Data%20Analysis.ipynb) </b> </font>
  - Data Input: carclaims.csv (raw data: https://www.kaggle.com/code/rashmiek99/vehicle-insurance-fraud-detection)
  - Data Output: df_cleaned (cleaned for modeling in Phase 2)
 
