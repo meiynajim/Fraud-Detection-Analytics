@@ -1,13 +1,13 @@
-<font size="+2.5" color='#27408B'><b> Capstone Project: Fraud Detection Analytics </b> </font>
+<font size="+8" color='#27408B'><b> Capstone Project: Fraud Detection Analytics </b> </font>
 
 
 This capstone project has a lifecycle analytics process with two phases in two separated notebooks:
 
-<font size="+1.8" color='#27408B'><b> ❏  Phase 1: Exploratory Data Analysis (first notebook: https://github.com/meiynajim/Fraud-Detection-Analytics/blob/main/Fraud%20Detection%20Analytics%20Phase%201%20Exploratory%20Data%20Analysis.ipynb) </b> </font>
+<font size="+8" color='#27408B'><b> ❏  Phase 1: Exploratory Data Analysis (first notebook: https://github.com/meiynajim/Fraud-Detection-Analytics/blob/main/Fraud%20Detection%20Analytics%20Phase%201%20Exploratory%20Data%20Analysis.ipynb) </b> </font>
  - Data Input: carclaims.csv (raw data: https://www.kaggle.com/code/rashmiek99/vehicle-insurance-fraud-detection)
  - Data Output: df_cleaned (cleaned for modeling in Phase 2)
 
-<font size="+1.8" color='#27408B'><b> ❏  Phase 2: Predictive Analytics (second notebook: https://github.com/meiynajim/Fraud-Detection-Analytics/blob/main/Fraud%20Detection%20Analytics%20Phase%202%20Predictive%20Analytics.ipynb) </b> </font>
+<font size="+3" color='#27408B'><b> ❏  Phase 2: Predictive Analytics (second notebook: https://github.com/meiynajim/Fraud-Detection-Analytics/blob/main/Fraud%20Detection%20Analytics%20Phase%202%20Predictive%20Analytics.ipynb) </b> </font>
  - Data Input: df_cleaned (cleaned from Phase 1)
  - Model Output: Predictive Analytics and Fraud Detection Insights
    
@@ -16,9 +16,9 @@ This capstone project has a lifecycle analytics process with two phases in two s
 
 
 ***
-<font size="+2" color='#27408B'><b> CONTENT </b> </font>
+<font size="+8" color='#27408B'><b> CONTENT </b> </font>
 
-<font size="+2" color='#27408B'><b> ❏ Phase 1: Exploratory Data Analysis </b> </font>
+<font size="+8" color='#27408B'><b> ❏ Phase 1: Exploratory Data Analysis </b> </font>
 
 ### Section 1. Problem Statement
 ### Section 2. Datasets & Environment
@@ -79,7 +79,7 @@ This capstone project has a lifecycle analytics process with two phases in two s
 
 ***
 
-<font size="+2" color='#27408B'><b> ❏ Phase 2: Predictive Analytics </b> </font>
+<font size="+8" color='#27408B'><b> ❏ Phase 2: Predictive Analytics </b> </font>
 
 
 ### Section 4.Feature Engineering
